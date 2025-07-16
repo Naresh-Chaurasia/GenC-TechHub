@@ -1,0 +1,39 @@
+= GenC-SpringFramework1
+:toc: right
+:toclevels: 5
+:sectnums:
+
+== Topics Covered
+
+* Spring Boot
+* Mocking
+* `javax` / JSR-330
+* Sorting
+* Spring Framework + Sorting
+
+
+== Coding
+
+* src/main/java/com/sorting/MainSort.java
+** Tight Coupling
+
+
+== Spring Boot
+
+A framework that simplifies Spring application setup using default configurations and embedded servers.
+
+== Mocking
+
+Mocking allows you to create dummy objects for unit testing.
+
+== javax / jsr330
+
+`javax.inject` and JSR-330 annotations are used for dependency injection, like `@Inject`.
+
+== Sorting
+
+Examples of sorting collections in Java, using `Comparator`, `Comparable`, etc.
+
+== Spring Framework + Sorting
+
+Integrating sorting logic in Spring-based services.
