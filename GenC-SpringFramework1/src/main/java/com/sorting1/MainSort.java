@@ -1,4 +1,4 @@
-package com.sorting;
+package com.sorting1;
 
 public class MainSort {
 
