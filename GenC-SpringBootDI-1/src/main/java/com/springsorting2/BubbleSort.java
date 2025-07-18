@@ -1,4 +1,4 @@
-package com.springsorting;
+package com.springsorting2;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Primary;
@@ -23,3 +23,5 @@ public class BubbleSort implements SortAlgorithm {
         return numbers;
     }
 }
+
+// MySort

@@ -1,4 +1,4 @@
-package com.springsorting;
+package com.springsorting2;
 
 import java.util.Arrays;
 
