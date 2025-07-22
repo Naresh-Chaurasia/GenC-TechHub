@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class LoggingAspect {
 
     // Advice that runs before any method in the BusinessService class
-    @Before("execution(* com.aop.BusinessService.*(..))")
+    @Before("execution(* com.aop.logging.BusinessService.*(..))")
     public void logBeforeMethodExecution() {
         System.out.println("LoggingAspect: A method in BusinessService is about to execute.");
     }

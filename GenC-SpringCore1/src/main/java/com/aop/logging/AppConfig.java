@@ -6,7 +6,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 // Spring configuration class
 @Configuration
-@ComponentScan(basePackages = "com.aop") // Scans the package for components
+@ComponentScan(basePackages = "com.aop.logging") // Scans the package for components
 @EnableAspectJAutoProxy // Enables Spring AOP proxy support
 public class AppConfig {
 }

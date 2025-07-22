@@ -15,7 +15,7 @@ public class AuditAspect {
 
     private static final Logger logger = LoggerFactory.getLogger(AuditAspect.class);
 
-    @Before("execution(* com.example..*.create*(..)) || execution(* com.example..*.update*(..)) || execution(* com.example..*.delete*(..))")
+    @Before("execution(* com.aop.auditing..*.create*(..)) || execution(* com.aop.auditing..*.update*(..)) || execution(* com.aop.auditing..*.delete*(..))")
     public void auditCrudMethods(JoinPoint joinPoint) {
         logAudit(joinPoint, "CRUD operation");
     }
