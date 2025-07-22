@@ -1,0 +1,72 @@
+# =========================
+# Build Artifacts
+# =========================
+**/target/
+**/build/
+**/out/
+*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# IDE Specific
+# =========================
+
+# VS Code
+.vscode/
+
+# IntelliJ
+**/.idea/
+**/*.iml
+
+# Eclipse
+**/.classpath
+**/.project
+**/.settings/
+
+# NetBeans
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+# =========================
+# OS Specific
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Logs and Misc
+# =========================
+*.log
+*.tmp
+*.swp
+*~
+
+# =========================
+# Dependency Caches
+# =========================
+**/.mvn/
+**/.gradle/
+**/.idea/
+**/.cache/
+**/.pytest_cache/
+
+# =========================
+# PDF and other media types
+# =========================
+*.pdf
+*.zip
+*.tar.gz
+*.rar
+
+# =========================
+# Node.js (if any frontend folders)
+# =========================
+**/node_modules/
+
