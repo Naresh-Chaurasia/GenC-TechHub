@@ -1,0 +1,25 @@
+{
+  "studentId": "S12345",
+  "firstName": "John",
+  "lastName": "Doe",
+  "age": 21,
+  "address": {
+    "street": "123 Elm Street",
+    "city": "Springfield",
+    "state": "IL",
+    "postalCode": "62704"
+  },
+  "courses": [
+    {
+      "courseId": "CSE101",
+      "courseName": "Introduction to Computer Science",
+      "credits": 4
+    },
+    {
+      "courseId": "MTH201",
+      "courseName": "Calculus I",
+      "credits": 3
+    }
+  ],
+  "isEnrolled": true
+}
