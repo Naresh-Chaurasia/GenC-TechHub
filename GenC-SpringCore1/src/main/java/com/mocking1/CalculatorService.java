@@ -1,4 +1,4 @@
-package com.mocking;
+package com.mocking1;
 
 // Service interface for calculator operations
 public interface CalculatorService {

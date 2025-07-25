@@ -3,7 +3,7 @@ package com.tdd;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CalculatorTestFailing {
+public class CalculatorTestFailing1 {
 
     @Test
     public void testAdd() {

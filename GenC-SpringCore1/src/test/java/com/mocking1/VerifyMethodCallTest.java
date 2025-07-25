@@ -1,4 +1,4 @@
-package com.mocking;
+package com.mocking1;
 
 import org.junit.jupiter.api.Test;
 import java.util.List;

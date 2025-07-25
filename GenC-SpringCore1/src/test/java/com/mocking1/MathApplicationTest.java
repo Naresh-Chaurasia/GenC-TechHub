@@ -1,7 +1,10 @@
-package com.mocking;
+package com.mocking1;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
+
+import com.mocking1.CalculatorService;
+import com.mocking1.MathApplication;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;

@@ -1,4 +1,4 @@
-package com.mocking;
+package com.mocking1;
 
 //MathApplication.java This is the class under test, which depends on CalculatorService
 public class MathApplication {
