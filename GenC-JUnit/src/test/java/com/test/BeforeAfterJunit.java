@@ -26,12 +26,7 @@ public class BeforeAfterJunit {
     public void testExample2() {
         System.out.println("This won't be printed");
     }
-//
-//    @Test
-//    public void testExample3() {
-//        System.out.println("Executing test 3");
-//        Assert.assertEquals(5, 2 + 3);
-//    }
+
 
     @After
     public void teardownAfterEach() {
