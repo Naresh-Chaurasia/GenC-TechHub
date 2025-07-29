@@ -1,6 +1,7 @@
 package com.mocking1;
 
 // Service interface for calculator operations
+
 public interface CalculatorService {
     double add(double a, double b);
 
