@@ -8,6 +8,8 @@ The **GenC Spring Boot Patient Application** is a RESTful web application built 
 
 == TODO
 
+* [ ] Understand the relationship between Patient and ClinicalData entities.
+* [ ] Perform CRUD operations on Patient and ClinicalData entities.
 * [ ] Make use of SpringBootJPA for filtering, querying, and sorting.
 * [ ] Add Swagger/OpenAPI documentation for the APIs.
 * [ ] Split the project into multiple microservices (e.g., service, repository).
