@@ -6,6 +6,12 @@
 == Overview
 The **GenC Spring Boot Patient Application** is a RESTful web application built using Spring Boot. It allows managing patient information and their associated clinical data. The application uses an H2 in-memory database for development and testing purposes.
 
+== TODO
+
+* [ ] Make use of SpringBootJPA for filtering, querying, and sorting.
+* [ ] Add Swagger/OpenAPI documentation for the APIs.
+* [ ] Split the project into multiple microservices (e.g., service, repository).
+
 == Features
 - Manage patient records (CRUD operations).
 - Manage clinical data associated with patients.
