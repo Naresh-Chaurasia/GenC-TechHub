@@ -19,6 +19,6 @@ public class HomeController {
         user.setName("John Doe");
         user.setEmail("john@example.com");
         model.addAttribute("user", user);
-        return "user"; // This returns the view name for the home page
+        return "user"; // This returns the view name for the user page
     }
 }
