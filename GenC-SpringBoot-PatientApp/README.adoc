@@ -1,0 +1,74 @@
+= GenC Spring Boot Patient Application
+:toc: right
+:toclevels: 5
+:sectnums: 5
+
+== Overview
+The **GenC Spring Boot Patient Application** is a RESTful web application built using Spring Boot. It allows managing patient information and their associated clinical data. The application uses an H2 in-memory database for development and testing purposes.
+
+== Features
+- Manage patient records (CRUD operations).
+- Manage clinical data associated with patients.
+- RESTful APIs for integration with other systems.
+- In-memory H2 database for quick setup and testing.
+- Global exception handling for consistent error responses.
+
+== Tech Stack
+- **Backend**: Spring Boot, Spring Data JPA
+- **Database**: H2 (in-memory)
+- **Build Tool**: Maven
+- **Testing**: JUnit 5, MockMvc
+- **API Documentation**: Swagger/OpenAPI (optional)
+
+== Prerequisites
+- Java 17 or higher
+- Maven 3.8 or higher
+- An IDE like IntelliJ IDEA or VS Code
+
+== Getting Started
+
+=== Clone the Repository
+```bash
+git clone <repository-url>
+cd GenC-SpringBoot-PatientApp
+```
+
+== API Endpoints
+
+=== Patient Endpoints
+
+* GET /api/patients: Retrieve all patients.
+* GET /api/patients/{id}: Retrieve a patient by ID.
+* POST /api/patients: Create a new patient.
+* PUT /api/patients/{id}: Update an existing patient.
+* DELETE /api/patients/{id}: Delete a patient by ID.
+
+=== Clinical Data Endpoints
+
+* GET /api/clinical: Retrieve all clinical data.
+* GET /api/clinical/{id}: Retrieve clinical data by ID.
+* POST /api/clinical: Create new clinical data.
+* PUT /api/clinical/{id}: Update clinical data by ID.
+* DELETE /api/clinical/{id}: Delete clinical data by ID.
+
+
+== Project Structure
+
+----
+src/
+├── main/
+│   ├── java/com/bt/
+│   │   ├── Patient.java          # Patient entity
+│   │   ├── ClinicalData.java     # ClinicalData entity
+│   │   ├── PatientController.java # REST controller for patients
+│   │   ├── ClinicalDataController.java # REST controller for clinical data
+│   │   ├── PatientRepository.java # Repository for patients
+│   │   ├── ClinicalDataRepository.java # Repository for clinical data
+│   ├── resources/
+│       ├── application.properties # Application configuration
+│       ├── data.sql*    # Preloaded sample data
+├── test/
+│   ├── java/com/bt/
+│   │   ├── PatientControllerTest.java # Unit tests for PatientController
+│   │   ├── ClinicalDataControllerTest.java # Unit tests for ClinicalDataController
+----
