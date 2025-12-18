@@ -1,4 +1,4 @@
-package com.springbeans3;
+package com.springbeans7;
 
 import org.springframework.stereotype.Component;
 import jakarta.annotation.PostConstruct;
