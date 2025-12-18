@@ -1,4 +1,4 @@
-package com.springsorting;
+package com.springsorting4;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

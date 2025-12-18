@@ -1,4 +1,4 @@
-package com.springsorting;
+package com.springsorting4;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Primary;
