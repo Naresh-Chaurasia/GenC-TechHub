@@ -1,4 +1,4 @@
-package com.autowiring;
+package com.autowiring2;
 
 public interface GreetingService {
 

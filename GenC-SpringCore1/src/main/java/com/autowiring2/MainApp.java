@@ -1,4 +1,4 @@
-package com.autowiring;
+package com.autowiring2;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

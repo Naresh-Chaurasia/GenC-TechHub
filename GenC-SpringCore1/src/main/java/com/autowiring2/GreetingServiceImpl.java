@@ -1,4 +1,4 @@
-package com.autowiring;
+package com.autowiring2;
 
 import org.springframework.stereotype.Service;
 
