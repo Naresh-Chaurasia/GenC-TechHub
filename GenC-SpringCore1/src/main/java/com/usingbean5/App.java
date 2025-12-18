@@ -1,4 +1,4 @@
-package com.usingbean;
+package com.usingbean5;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.*;

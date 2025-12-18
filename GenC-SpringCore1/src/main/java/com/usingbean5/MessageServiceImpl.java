@@ -1,4 +1,4 @@
-package com.usingbean;
+package com.usingbean5;
 
 public class MessageServiceImpl implements MessageService {
     public String getMessage() {

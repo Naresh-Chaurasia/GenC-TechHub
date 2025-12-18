@@ -1,4 +1,4 @@
-package com.usingvalue;
+package com.usingvalue6;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
