@@ -5,6 +5,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
+// Spring Data JPA repository for User entity with Long as ID type
+// Provides CRUD operations (Create, Read, Update, Delete) and pagination/sorting out of the box
 public interface UserRepository extends JpaRepository<User, Long> {
 
     // save(S entity)

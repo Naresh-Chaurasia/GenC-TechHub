@@ -9,9 +9,12 @@ public class MainApp {
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
         // Get the GreetingService bean
-        GreetingService greetingService = context.getBean(GreetingService.class);
+        GreetingService greetingService1 = context.getBean(GreetingServiceImpl.class);
+
+        GreetingService greetingService2 = context.getBean(HelloServiceImp.class);
 
         // Call the method
-        greetingService.sayHello();
+        greetingService1.sayHello();
+        greetingService2.sayHello();
     }
 }

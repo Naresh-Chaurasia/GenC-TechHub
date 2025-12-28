@@ -11,7 +11,7 @@
 	</parent>
 
 	<groupId>com.tutorials</groupId>
-	<artifactId>GenC-SpringBoot-App2</artifactId>
+	<artifactId>GenC-SpringBoot-JPA</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 
