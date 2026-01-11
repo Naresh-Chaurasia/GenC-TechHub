@@ -60,6 +60,28 @@ cd GenC-SpringBoot-PatientApp
 * DELETE /api/clinical/{id}: Delete clinical data by ID.
 
 
+----
+{
+    "id": 1,
+    "firstName": "John",
+    "lastName": "Doe",
+    "age": 45,
+    "clinicalData": [
+        {
+            "id": 1,
+            "diagnosis": "Type 2 Diabetes",
+            "treatment": "Metformin 500mg twice daily"
+        },
+        {
+            "id": 2,
+            "diagnosis": "Hypertension",
+            "treatment": "Lisinopril 10mg daily"
+        }
+    ]
+}
+----
+
+
 == Project Structure
 
 ----
