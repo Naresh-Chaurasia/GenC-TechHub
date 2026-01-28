@@ -19,7 +19,6 @@ public class StudentService {
 	@Autowired
 	StudentRepository studentRepository;
 
-
 	@Autowired
 	AddressFeignClient addressFeignClient;
 
@@ -53,5 +52,4 @@ public class StudentService {
 		return studentResponse;
 	}
 
-	
 }
