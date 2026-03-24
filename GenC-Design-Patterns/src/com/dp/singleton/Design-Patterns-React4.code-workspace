@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../Java-React4/Design-Patterns-React4"
+		},
+		{
+			"path": "../../../.."
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"src"
+		],
+		"java.project.outputPath": "bin",
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar"
+		]
+	}
+}

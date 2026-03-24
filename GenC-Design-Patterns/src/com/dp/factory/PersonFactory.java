@@ -22,10 +22,10 @@ class Other implements Person {
     }
 }
 
-public class TheFactoryClass {
+public class PersonFactory {
 
 
-    static Person getPerson(String type) {
+    Person getPerson(String type) {
         Person p = null;
         if (type.equalsIgnoreCase("m")) {
             p = new Male();
