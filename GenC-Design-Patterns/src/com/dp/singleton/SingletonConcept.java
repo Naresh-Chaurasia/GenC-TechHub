@@ -20,10 +20,17 @@ public class SingletonConcept {
     public static void main(String[] args) {
 
 
-       Bird b =  Bird.getInstance();
-       b.fly();
+       Bird b1 =  Bird.getInstance();
+       b1.fly();
 
-               // Bird bird = new Bird();
+       System.out.println("Bird b1: " + b1);
+
+       Bird b2 = Bird.getInstance();
+       b2.fly();
+
+       System.out.println("Bird b2: " + b2);
+
+        // Bird bird = new Bird();
         // bird.fly();
         // System.out.println("Bird 1: " + bird);
         // System.out.println("Bird 1: " + bird);
