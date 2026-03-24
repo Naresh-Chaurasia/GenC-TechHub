@@ -2,6 +2,8 @@ package com.dp.singleton;
 
 class Bird{
 
+    private static Bird instance = new Bird();
+
     private Bird() {
         System.out.println("Bird constructor called");
     }
@@ -11,7 +13,7 @@ class Bird{
     }
     
     public static Bird getInstance() {
-        return new Bird();
+        return instance;
     }
 }
 
