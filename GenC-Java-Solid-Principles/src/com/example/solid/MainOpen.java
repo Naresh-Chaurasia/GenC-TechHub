@@ -7,7 +7,9 @@ public class MainOpen {
 
         Shape[] shapes = new Shape[] {
                 new Circle(5),
-                new Rectangle(4, 6)
+                new Rectangle(4, 6),
+                new Circle(10),
+                new Traingle(2, 3)
         };
 
         AreaCalculator calculator = new AreaCalculator();

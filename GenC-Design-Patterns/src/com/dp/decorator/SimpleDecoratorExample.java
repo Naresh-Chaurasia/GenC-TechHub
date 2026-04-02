@@ -43,10 +43,10 @@ public class SimpleDecoratorExample {
         Coffee coffee = new SimpleCoffee();
         System.out.println(coffee.getDescription()); // Plain Coffee
 
-        coffee = new MilkDecorator(coffee);
-        System.out.println(coffee.getDescription()); // Plain Coffee + Milk
+        MilkDecorator m_coffee = new MilkDecorator(coffee);
+        System.out.println(m_coffee.getDescription()); // Plain Coffee + Milk
 
-        coffee = new SugarDecorator(coffee);
-        System.out.println(coffee.getDescription()); // Plain Coffee + Milk + Sugar
+        SugarDecorator s_coffee = new SugarDecorator(m_coffee);
+        System.out.println(s_coffee.getDescription()); // Plain Coffee + Milk + Sugar
     }
 }

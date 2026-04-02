@@ -34,6 +34,12 @@ public class SingleResponsibility {
      */
     public void sendReport(String recipient) {
         // Logic to send the report to the recipient
+        // Step1 (1.1 and 1.2)
+        // Step2
+        // Step3
         System.out.println("Sending report to: " + recipient);
+        System.out.println("Sending Via Email");
+        System.out.println("Sending Via Courier");
+
     }
 }
