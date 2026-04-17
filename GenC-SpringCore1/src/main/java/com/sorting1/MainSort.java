@@ -11,8 +11,10 @@ public class MainSort {
 
         if(userInput > 10){
             sortAlgorithm = new BubbleSort();
-        }else{
+        }else if (userInput > 5){
             sortAlgorithm = new QuickSort();
+        }else {
+            sortAlgorithm = new CustomSort();
         }
 
         SortingAlgorithm sortingAlgorithm = new SortingAlgorithm(sortAlgorithm);

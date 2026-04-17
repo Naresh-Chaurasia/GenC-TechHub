@@ -11,6 +11,7 @@ public class ConstructorInjectionExample {
     // Constructor Injection
     @Autowired
     public ConstructorInjectionExample(MessageService messageService) {
+        System.out.println("Calling ......");
         this.messageService = messageService;
     }
 

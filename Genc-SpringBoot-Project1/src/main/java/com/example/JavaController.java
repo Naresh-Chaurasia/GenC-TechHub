@@ -7,16 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 // RestController = Controller + Some other capabilities
 
 @RestController
-public class HelloController {
+public class JavaController {
 
-    @GetMapping("/hello")
-    public String sayHello() {
-        return "Hello World";
+    @GetMapping("/java")
+    public String sayJava() {
+        return "Java World";
     }
 
-    @GetMapping("/hai")
-    public String sayHai() {
-        return "Hai World";
-    }
-
+   
 }
