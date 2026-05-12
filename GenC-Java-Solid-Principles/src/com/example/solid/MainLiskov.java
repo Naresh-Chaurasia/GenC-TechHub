@@ -18,6 +18,9 @@ public class MainLiskov {
         // OpenClosed openClosed = new OpenClosed();
         // openClosed.demonstrateOpenClosed();
 
+        Bird bird = new Bird();
+        makeBirdFly(bird); // This works fine
+
         Bird sparrow = new Sparrow();
         makeBirdFly(sparrow); // This works fine
 

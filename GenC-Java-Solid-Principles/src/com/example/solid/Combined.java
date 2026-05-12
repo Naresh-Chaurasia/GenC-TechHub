@@ -10,6 +10,13 @@ interface Scanner {
     void scanDocument(String document);
 }
 
+
+public interface Combined {
+
+    void scanDocument(String document);
+    void printDocument(String document);
+}
+
 // MultiFunctionPrinter implements both Printer and Scanner interfaces
 class MultiFunctionPrinter implements Printer, Scanner {
     @Override

@@ -6,6 +6,7 @@ public class MainSingle {
     public static void main(String[] args) {
         // Demonstrating Single Responsibility Principle
         SingleResponsibility singleResponsibility = new SingleResponsibility();
+        singleResponsibility.setReportContent("This is java");
         singleResponsibility.generateReport();
         singleResponsibility.sendReport("NC");
     }
